@@ -1,19 +1,29 @@
 :root{
 
-    --navBackground:linear-gradient(90deg, #3D1E3E, #24394D);
+    /* --navBackground:linear-gradient(90deg, #3D1E3E, #24394D); */
+    --navBackground:#000000c4;
     --textPrimaryColor:#fff;
+    --secoundaryTextColor:#000000;
+    --textColor:#17171c;
+    --launchBtn:linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)) padding-box, linear-gradient(to right, rgba(151, 71, 255, 1), rgba(252, 43, 90, 1)) border-box;
     --tradingSpan: linear-gradient(to right, #FF9966, #FF6699, #6699FF, #66CCFF);
+    --navLinkHover:#1a1a2e;
     --ethereum:#151C39;
     --polygon:#21123A;
     --bnb:#2E2510;
     --avalanche:#310A0B;
     --arbitrum:#081B27;
     --optimism:#081B27;
-    --bodyColor:linear-gradient(90deg, #3D1E3E 0%, #1B1518 25%, #12161D 50%, #101315 75%, #24394D 100%);
+    /* --bodyColor:linear-gradient(90deg, #3D1E3E 0%, #1B1518 25%, #12161D 50%, #101315 75%, #24394D 100%); */
+    --bodyColor:#000000c4;
+    --buttonPrimary:#0F3650;
+    --secoundaryButton:linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)) padding-box, linear-gradient(to right, rgba(151, 71, 255, 1), rgba(252, 43, 90, 1)) border-box;
      /* --textPrimaryColor: #ffffff; */
-    --backgroundColor: #0a1a2a;
+    --backgroundColor: #000000c4;
     --accentColor: #00ff9d;
     --gradientStart: #2b0e3a;
     --gradientEnd: #1a2a3a;
-    
+    --featureIcon:#4ecdc4;
+    --detaileIcon:#08070d;
+    --formContainer:#161b22;
 }
