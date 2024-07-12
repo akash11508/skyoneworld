@@ -1,0 +1,253 @@
+/* volume */
+
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    
+    .card {
+        padding: 1rem;
+    }
+    
+    .icon {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .card {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .icon {
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }
+    
+    .info {
+        text-align: center;
+    }
+}
+
+
+/* feature */
+@media (max-width: 768px) {
+    .featureHeader {
+        font-size: 2rem;
+    }
+
+    .feature-box {
+        flex-basis: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .featureHeader {
+        font-size: 1.8rem;
+    }
+
+    .featureSubHeader {
+        font-size: 1.1rem;
+    }
+
+    .featurepara {
+        font-size: 0.8rem;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .chainSection {
+        padding: 40px 20px;
+        flex-direction: column;
+    }
+
+    .cardss {
+        max-width: 100%;
+    }
+
+    .chain-icons {
+        margin: 40px auto 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .cardssHeader {
+        font-size: 2rem;
+    }
+
+    .cardssPara {
+        font-size: 0.9rem;
+    }
+
+    .chain-icons {
+        max-width: 250px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 480px) {
+    .chainSection {
+        padding: 30px 15px;
+    }
+
+    .cardssHeader {
+        font-size: 1.8rem;
+    }
+
+    .cardssPara {
+        font-size: 0.8rem;
+    }
+
+    .chain-icons {
+        max-width: 200px;
+        height: 200px;
+    }
+
+    .chain-icon,
+    .chain-icon img {
+        width: 30px;
+        height: 30px;
+    }
+}
+/* form */
+
+@media (max-width: 768px) {
+    .formContainer {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .left-content {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .trade-form {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .formContainer {
+        padding: 15px;
+    }
+
+    .start-trading {
+        width: 100%;
+        padding: 10px;
+    }
+
+    /* .form-row {
+        flex-direction: column;
+        align-items: flex-start;
+    } */
+
+    .form-value {
+        margin-top: 5px;
+    }
+}
+
+/* reward */
+
+@media (max-width: 768px) {
+    .rewardCard {
+        padding: 30px;
+    }
+    
+    .rewardTitle {
+        margin-bottom: 15px;
+    }
+    
+    .description {
+        margin-bottom: 25px;
+    }
+    
+    .button {
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .rewardCard {
+        padding: 20px;
+    }
+    
+    .button {
+        display: block;
+        width: 100%;
+    }
+}
+
+/* footer */
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .nav {
+        margin: 15px 0;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        font-size: 20px;
+    }
+
+    .nav {
+        /* flex-direction: column; */
+        align-items: center;
+    }
+
+    .nav a {
+        padding: 5px 0;
+    }
+
+    .launch-btn {
+        width: 100%;
+        max-width: 200px;
+    }
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .tradingHeader { font-size: 4.5rem; }
+    .tradingSubHeader { font-size: 3.5rem; }
+}
+
+@media (max-width: 992px) {
+    .tradingHeader { font-size: 3.5rem; }
+    .tradingSubHeader { font-size: 2.5rem; }
+    .tradingPara { font-size: 0.9rem; }
+}
+
+@media (max-width: 768px) {
+    .tradingHeader { font-size: 2.5rem; }
+    .tradingSubHeader { font-size: 2rem; }
+    .tradingPara { font-size: 0.8rem; }
+    .btn { padding: 6px 25px; font-size: 12px; }
+}
+
+@media (max-width: 576px) {
+    .tradingHeader { font-size: 2rem; }
+    .tradingSubHeader { font-size: 1.5rem; }
+    .tradingPara { font-size: 0.7rem; }
+    .buttons { flex-direction: column; align-items: center; }
+    .btn { width: 80%; max-width: 200px; }
+}
+
+@media (max-width: 480px) {
+    .floating-icon { display: none; }
+}

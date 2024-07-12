@@ -1,0 +1,13 @@
+:root{
+
+    --navBackground:linear-gradient(90deg, #3D1E3E, #24394D);
+    --textPrimaryColor:#fff;
+    --tradingSpan: linear-gradient(to right, #FF9966, #FF6699, #6699FF, #66CCFF);;
+    --ethereum:#151C39;
+    --polygon:#21123A;
+    --bnb:#2E2510;
+    --avalanche:#310A0B;
+    --arbitrum:#081B27;
+    --optimism:#081B27;
+    --bodyColor:linear-gradient(90deg, #3D1E3E 0%, #1B1518 25%, #12161D 50%, #101315 75%, #24394D 100%);
+}
