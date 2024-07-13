@@ -488,10 +488,12 @@ monitors the market around the clock to seize profitable opportunities.
     document.addEventListener("DOMContentLoaded", function () {
       const hamburger = document.querySelector(".hamburger");
       const navLinks = document.querySelector(".nav-links");
+      const section = document.querySelector(".skyOneWorld");
 
       hamburger.addEventListener("click", function () {
         navLinks.classList.toggle("active");
         hamburger.classList.toggle("active");
+        section.classList.toggle("shifted");
       });
     });
         </script>
