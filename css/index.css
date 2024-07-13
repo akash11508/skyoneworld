@@ -47,10 +47,18 @@ body {
     font-size: 16px;
     opacity: 0.8;
     transition: opacity 0.3s ease;
+    padding: 10px 20px; /* Added padding */
+    border-radius: 5px; 
 }
 
 .nav-links a:hover {
     opacity: 1;
+    color: var(--hoverColor, #59e8b5); /* Change color on hover */
+    
+    background-color: var(--hoverBackground, rgba(89, 232, 181, 0.1));
+    border-radius: 20px;
+    padding: 10px 20px;
+
 }
 
 .lunch-app-btn {
@@ -118,6 +126,9 @@ body {
     }
     .nav{
         gap: 1px;
+    }
+    .nav-links a {
+        padding: 10px 15px; /* Increased padding for touch targets */
     }
     .nav-links {
         display: none;
@@ -323,7 +334,7 @@ body {
   left: 0;
   top: 0;
   font-size: 2.5rem;
-  color: var(--featureIcon);
+  color:#FF9966;
   background: rgba(78, 205, 196, 0.1);
   width: 60px;
   height: 60px;
@@ -520,15 +531,18 @@ body {
     /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
     margin-bottom: 20px;
 }
-
+.cta-section p{
+    color: var(--textPrimaryColor);
+}
 .commitment-text p {
     font-size: 1rem;
     line-height: 1.6;
+    color:var(--textPrimaryColor);
 }
 
 .feature-item {
     margin-bottom: 30px;
-    border-left: 3px solid var(--accentColor);
+    border-left: 3px solid #FF9966;
     transition: transform 0.3s ease;
         padding: 20px;
     background: var(--textColor);
@@ -541,11 +555,16 @@ body {
 }
 
 .feature-item h3 {
-    color: var(--accentColor);
+    background-image: var(--tradingSpan);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
     margin-bottom: 10px;
     font-size: 1.2rem;
 }
-
+.feature-item p{
+    color:var(--textPrimaryColor);
+}
 .cta-section {
     margin-top: 40px;
     text-align: center;
@@ -557,7 +576,10 @@ body {
 
 .cta-section h2 {
     font-size: 1.8rem;
-    color: var(--accentColor);
+    background-image: var(--tradingSpan);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
     margin-bottom: 20px;
 }
 
@@ -923,11 +945,7 @@ body {
     text-decoration: none;
     font-size: 14px;
 }
-.nav-links a:hover{
-    background-color: #000000;
-    border-radius: 20px;
-    padding: 5px;
-}
+
 
 .launch-btn {
     background: transparent;
