@@ -423,16 +423,16 @@ body {
     box-shadow: 2px 3px 1px #150f22, 1px 3px 6px #332552;
     padding: 27px;
     /* height: 120px; */
-      transition: transform 0.3s ease;
+      transition: transform 0.5s ease!important;
 }
 
  .detail-item:hover {
-  transform: scale(1.1);
+  transform: scale(1.1)!important;
 }
 
 .detail-item:hover > .detail-item:not(:hover) {
-  filter: blur(10px);
-  transform: scale(0.9);
+  filter: blur(10px)!important;
+  transform: scale(0.9)!important;
 }
 
 .detail-item h2 {
