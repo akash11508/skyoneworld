@@ -1,3 +1,61 @@
+@media screen and (max-width: 768px) {
+    .heroSection{
+        margin-top:0px;
+    }
+    .nav{
+        gap: 1px;
+    }
+    .nav-links a {
+        padding: 10px 15px; /* Increased padding for touch targets */
+    }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background-color: var(--navBackground);
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .nav-links.active {
+        display: flex;
+        z-index: 1;
+        top: 115px;
+    }
+
+    .lunch-app-btn {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 480px) {
+.why-choose-section{
+    padding-block:20px;
+}
+.section-title{
+    font-size:28px;
+}
+    .navbar {
+        padding: 10px 15px;
+    }
+
+    .logo {
+        width: 40%;
+
+    }
+    .logo img{
+        width: 100%;
+    }
+}
+
+
 /* volume */
 
 @media (max-width: 768px) {
@@ -34,6 +92,20 @@
         text-align: center;
     }
 }
+@media (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column;
+    }
+
+    .image-container, .details-container {
+        flex: 0 0 100%;
+    }
+
+    .image-container {
+        margin-bottom: 30px;
+    }
+}
+
 
 
 /* feature */
@@ -250,4 +322,73 @@
 
 @media (max-width: 480px) {
     .floating-icon { display: none; }
+}
+@media(max-width:768px){
+     .commitment{
+        flex-direction: column;
+    }
+}
+@media (min-width: 768px) {
+   
+    .commitment-text, .commitment-features {
+        flex: 1 1 calc(50% - 20px);
+    }
+
+    .section-header {
+        font-size: 3rem;
+    }
+
+    .commitment-text p {
+        font-size: 1.1rem;
+    }
+
+    .feature-item h3 {
+        font-size: 1.4rem;
+    }
+
+    .cta-section h2 {
+        font-size: 2.2rem;
+    }
+
+    .cta-button {
+        padding: 15px 30px;
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .commitment-content {
+        flex-wrap: nowrap;
+    }
+
+    .commitment-text, .commitment-features {
+        flex: 1 1 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-header {
+        font-size: 2rem;
+    }
+
+    .commitment-section {
+        padding: 40px 10px;
+    }
+
+    .commitment-text, .commitment-features {
+        padding: 20px;
+    }
+
+    .feature-item {
+        padding-left: 15px;
+    }
+
+    .cta-section {
+        padding: 20px;
+    }
+
+    .social-links a {
+        display: block;
+        margin: 15px 0;
+    }
 }

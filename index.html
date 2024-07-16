@@ -47,18 +47,22 @@
     <section class="mainBodyContainer skyOneWorld">
       <div class="commonSection">
         <nav class="navbar">
-          <div class="logo">HASHFLOW</div>
+          <div class="logo">
+            <a href="">
+              <img src="./images/logo.png" alt="" />
+            </a>
+          </div>
           <div class="nav-links">
-            <a href="#">Home</a>
-            <a href="#">Roadmap</a>
-            <a href="#">Hashverse</a>
+            <a href="#home">Home</a>
+            <a href="#">About</a>
+            <a href="#services">Services</a>
             <a href="#">Docs</a>
             <a href="#">Blog</a>
           </div>
           <!-- <button class="lunch-app-btn">Launch App</button> -->
           <style></style>
           <button class="lunch-app-btn">
-            <svg
+            <!-- <svg
               height="24"
               width="24"
               viewBox="0 0 24 24"
@@ -69,8 +73,8 @@
                 d="M5 13c0-5.088 2.903-9.436 7-11.182C16.097 3.564 19 7.912 19 13c0 .823-.076 1.626-.22 2.403l1.94 1.832a.5.5 0 0 1 .095.603l-2.495 4.575a.5.5 0 0 1-.793.114l-2.234-2.234a1 1 0 0 0-.707-.293H9.414a1 1 0 0 0-.707.293l-2.234 2.234a.5.5 0 0 1-.793-.114l-2.495-4.575a.5.5 0 0 1 .095-.603l1.94-1.832C5.077 14.626 5 13.823 5 13zm1.476 6.696l.817-.817A3 3 0 0 1 9.414 18h5.172a3 3 0 0 1 2.121.879l.817.817.982-1.8-1.1-1.04a2 2 0 0 1-.593-1.82c.124-.664.187-1.345.187-2.036 0-3.87-1.995-7.3-5-8.96C8.995 5.7 7 9.13 7 13c0 .691.063 1.372.187 2.037a2 2 0 0 1-.593 1.82l-1.1 1.039.982 1.8zM12 13a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"
                 fill="currentColor"
               ></path>
-            </svg>
-            <span>Launch App</span>
+            </svg> -->
+            <span>LogIn / Register</span>
           </button>
           <div class="hamburger">
             <span></span>
@@ -79,7 +83,16 @@
           </div>
         </nav>
         <section style="">
-          <div class="back">
+          <div
+            id="home"
+            class="back"
+            data-aos="fade-down"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-easing="linear"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            data-aos-once="true"
+          >
             <div class="container">
               <div class="backgroundLinearGradient">
                 <div class="text-center heroSection">
@@ -139,7 +152,7 @@
       data-aos="fade-up"
       data-aos-anchor-placement="top-bottom"
       data-aos-easing="linear"
-      data-aos-delay="300"
+      data-aos-delay="900"
       data-aos-offset="0"
       data-aos-once="true"
     >
@@ -219,9 +232,9 @@
     <!-- volumesection -->
     <!-- featureBox -->
     <section
+      id="services"
       class="token-details"
       data-aos="fade-down"
-      data-aos="fade-up"
       data-aos-anchor-placement="top-bottom"
       data-aos-easing="linear"
       data-aos-delay="300"
@@ -294,17 +307,17 @@
             <div class="owl-carousel owl-theme">
               <div class="item">
                 <div class="sliderDiv">
-                  <img src="./images/carousel/carouselfive.jpg" alt="" />
+                  <img src="./images/carousel/one_two.jpg" alt="" />
                 </div>
               </div>
               <div class="item">
                 <div class="sliderDiv">
-                  <img src="./images/carousel/carouselsix.jpg" alt="" />
+                  <img src="./images/carousel/one_one.jpg" alt="" />
                 </div>
               </div>
               <div class="item">
                 <div class="sliderDiv">
-                  <img src="./images/carousel/carousel.jpg" alt="" />
+                  <img src="./images/carousel/one.jpg" alt="" />
                 </div>
               </div>
             </div>
@@ -368,13 +381,13 @@ monitors the market around the clock to seize profitable opportunities.
           <div class="details-container slide">
             <div class="owl-carousel owl-theme">
               <div class="item">
-                <img src="./images/carousel/carousel_one.jpg" alt="" />
+                <img src="./images/carousel/four.jpg" alt="" />
               </div>
               <div class="item">
-                <img src="./images/carousel/carousel1.jpg" alt="" />
+                <img src="./images/carousel/three.jpg" alt="" />
               </div>
               <div class="item">
-                <img src="./images/carousel/carouselthree.jpg" alt="" />
+                <img src="./images/carousel/two.jpg" alt="" />
               </div>
             </div>
           </div>
@@ -582,14 +595,14 @@ monitors the market around the clock to seize profitable opportunities.
                 </div>
             </section> -->
     <!-- rewards -->
-    <section style="padding-bottom: 30px">
+    <section style="padding-bottom: 30px" id="rewards">
       <div class="container">
         <div class="rewardCard">
           <div class="rewardTitle">
-            Join The Hashverse And Earn Rewards
+            Join The SkyOneWorld And Earn Rewards
             <p class="description">
               Shape the future of the protocol by joining Hashflow's gamified,
-              storyverse-driven DAO—the Hashverse. Stake tokens, complete
+              storyverse-driven DAO—the SkyoneWorld. Stake tokens, complete
               quests, and earn Hashflow tokens & one-of-a-kind NFTs.
             </p>
             <!-- <a href="#" class="button">Explore The Hashverse</a> -->
@@ -618,13 +631,13 @@ monitors the market around the clock to seize profitable opportunities.
         <p class="col-md-3 mb-0 text-white">© 2024 Company, Inc</p>
         <ul class="nav col-md-6 justify-content-end">
           <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-white">Home</a>
+            <a href="#home" class="nav-link px-2 text-white">Home</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-white">Roadmap</a>
+            <a href="#" class="nav-link px-2 text-white">About</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-white">Hashverse</a>
+            <a href="#services" class="nav-link px-2 text-white">Services</a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link px-2 text-white">Docs</a>
