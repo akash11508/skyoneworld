@@ -38,8 +38,12 @@
     <title>Trading</title>
   </head>
   <body>
-    <div class="loader"></div>
-
+    <!-- <div class="loader"></div> -->
+    <div id="preloader" style="">
+      <div class="loader">
+        <!-- <img src="./images/logo.png" alt=""> -->
+      </div>
+    </div>
     <section class="mainBodyContainer skyOneWorld">
       <div class="commonSection">
         <nav class="navbar">
@@ -290,12 +294,12 @@
             <div class="owl-carousel owl-theme">
               <div class="item">
                 <div class="sliderDiv">
-                  <img src="./images/carousel/carousel.jpg" alt="" />
+                  <img src="./images/carousel/carouselfive.jpg" alt="" />
                 </div>
               </div>
               <div class="item">
                 <div class="sliderDiv">
-                  <img src="./images/carousel/carousel1.jpg" alt="" />
+                  <img src="./images/carousel/carouselsix.jpg" alt="" />
                 </div>
               </div>
               <div class="item">
@@ -364,13 +368,13 @@ monitors the market around the clock to seize profitable opportunities.
           <div class="details-container slide">
             <div class="owl-carousel owl-theme">
               <div class="item">
-                <img src="./images/carousel/carousel.jpg" alt="" />
+                <img src="./images/carousel/carousel_one.jpg" alt="" />
               </div>
               <div class="item">
-                <img src="./images/carousel/carousel.jpg" alt="" />
+                <img src="./images/carousel/carousel1.jpg" alt="" />
               </div>
               <div class="item">
-                <img src="./images/carousel/carousel.jpg" alt="" />
+                <img src="./images/carousel/carouselthree.jpg" alt="" />
               </div>
             </div>
           </div>
@@ -652,6 +656,18 @@ monitors the market around the clock to seize profitable opportunities.
       </footer>
     </div>
   </body>
+
+  <!-- ----------------------------- preloader ------------------------ -->
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      setTimeout(function () {
+        document.getElementById("preloader").style.display = "none";
+        document.getElementById("mainBodyContainer").style.display = "block";
+      }, 6000); // Change this value to the number of milliseconds you want the preloader to show
+    });
+  </script>
+
   <!-- jQuery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <!-- Owl Carousel JS -->
