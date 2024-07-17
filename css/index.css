@@ -94,6 +94,11 @@ body {
     background: var(--launchBtn);
     border: 1px solid transparent !important;
                     }
+
+    .lunch-app-btn:hover{
+        color:var(--textPrimaryColor);
+        text-decoration: none;
+    }                
    .lunch-app-btn svg {
   margin-right: 3px;
   transform: rotate(30deg);
@@ -105,9 +110,9 @@ body {
 .lunch-app-btn:hover svg {
   transform: translateX(5px) rotate(90deg);
 }
-.lunch-app-btn:hover span {
+/* .lunch-app-btn:hover span {
   transform: translateX(7px);
-}
+} */
 .hamburger {
     display: none;
     flex-direction: column;
