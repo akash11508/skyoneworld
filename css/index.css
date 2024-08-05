@@ -11,7 +11,9 @@ body {
     /* font-family:nike combat stencil!important; */
     background: var(--bodyColor);
 }
-
+a{
+    text-decoration: none;
+}
 .heroSection {
     margin-top: 5px;
     padding-block: 60px;
@@ -79,7 +81,7 @@ body {
     color: #1a1a2e;
 } */
 .lunch-app-btn{
-                        display: flex;
+display: flex;
   align-items: center;
   font-family: 'josephin slab', sans-serif;
   cursor: pointer;
@@ -93,23 +95,26 @@ body {
       border-width: 1px !important;
     background: var(--launchBtn);
     border: 1px solid transparent !important;
+    transition: 0.3s ease;
                     }
 
     .lunch-app-btn:hover{
         color:var(--textPrimaryColor);
+        background: linear-gradient(
+          to right,
+          rgb(193 41 13 / 40%),
+          rgb(165 57 130 / 40%),
+          rgb(165 57 130 / 40%),
+          rgb(94 110 193 / 40%),
+          rgb(38 111 161 / 40%)
+        );
         text-decoration: none;
     }                
-   .lunch-app-btn svg {
-  margin-right: 3px;
-  transform: rotate(30deg);
-  transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
-} 
+  
 .lunch-app-btn span {
   transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
 }
-.lunch-app-btn:hover svg {
-  transform: translateX(5px) rotate(90deg);
-}
+
 /* .lunch-app-btn:hover span {
   transform: translateX(7px);
 } */
