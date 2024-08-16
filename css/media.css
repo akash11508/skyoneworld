@@ -392,3 +392,12 @@
         margin: 15px 0;
     }
 }
+
+@media(max-width:767px){
+    .mainlogo{
+        width: 100%;
+    }
+    .border_cta{
+        width:100%;
+    }
+}
