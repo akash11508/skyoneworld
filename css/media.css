@@ -1,403 +1,436 @@
 @media screen and (max-width: 768px) {
-    .heroSection{
-        margin-top:0px;
-    }
-    .nav{
-        gap: 1px;
-    }
-    .nav-links a {
-        padding: 10px 15px; /* Increased padding for touch targets */
-    }
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        right: 0;
-        background-color: var(--navBackground);
-        padding: 20px;
-        gap: 15px;
-    }
+  .heroSection {
+    margin-top: 0px;
+  }
+  .nav {
+    gap: 1px;
+  }
+  .nav-links a {
+    padding: 10px 15px; /* Increased padding for touch targets */
+  }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: var(--navBackground);
+    padding: 20px;
+    gap: 15px;
+  }
 
-    .nav-links.active {
-        display: flex;
-        z-index: 1;
-        top: 115px;
-    }
+  .nav-links.active {
+    display: flex;
+    z-index: 1;
+    top: 115px;
+  }
 
-    .lunch-app-btn {
-        display: none;
-    }
+  .lunch-app-btn {
+    display: none;
+  }
 
-    .hamburger {
-        display: flex;
-    }
+  .hamburger {
+    display: flex;
+  }
 }
 
 @media screen and (max-width: 480px) {
-.why-choose-section{
-    padding-block:20px;
-}
-.section-title{
-    font-size:28px;
-}
-    .navbar {
-        padding: 10px 15px;
-    }
+  .why-choose-section {
+    padding-block: 20px;
+  }
+  .section-title {
+    font-size: 28px;
+  }
+  .navbar {
+    padding: 10px 15px;
+  }
 
-    .logo {
-        width: 40%;
-
-    }
-    .logo img{
-        width: 100%;
-    }
+  .logo {
+    width: 40%;
+  }
+  .logo img {
+    width: 100%;
+  }
 }
-
 
 /* volume */
 
 @media (max-width: 768px) {
-    .grid {
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    }
-    
-    .card {
-        padding: 1rem;
-    }
-    
-    .icon {
-        width: 30px;
-        height: 30px;
-    }
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .card {
+    padding: 1rem;
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
 }
 
 @media (max-width: 480px) {
-    .grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .card {
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    .icon {
-        margin-right: 0;
-        margin-bottom: 0.5rem;
-    }
-    
-    .info {
-        text-align: center;
-    }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .icon {
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  .info {
+    text-align: center;
+  }
 }
 @media (max-width: 768px) {
-    .content-wrapper {
-        flex-direction: column;
-    }
+  .content-wrapper {
+    flex-direction: column;
+  }
 
-    .image-container, .details-container {
-        flex: 0 0 100%;
-    }
+  .image-container,
+  .details-container {
+    flex: 0 0 100%;
+  }
 
-    .image-container {
-        margin-bottom: 30px;
-    }
+  .image-container {
+    margin-bottom: 30px;
+  }
 }
-
-
 
 /* feature */
 @media (max-width: 768px) {
-    .featureHeader {
-        font-size: 2rem;
-    }
+  .featureHeader {
+    font-size: 2rem;
+  }
 
-    .feature-box {
-        flex-basis: 100%;
-    }
+  .feature-box {
+    flex-basis: 100%;
+  }
 }
 
 @media (max-width: 480px) {
-    .featureHeader {
-        font-size: 1.8rem;
-    }
+  .featureHeader {
+    font-size: 1.8rem;
+  }
 
-    .featureSubHeader {
-        font-size: 1.1rem;
-    }
+  .featureSubHeader {
+    font-size: 1.1rem;
+  }
 
-    .featurepara {
-        font-size: 0.8rem;
-    }
+  .featurepara {
+    font-size: 0.8rem;
+  }
 }
 
-
 @media (max-width: 991px) {
-    .chainSection {
-        padding: 40px 20px;
-        flex-direction: column;
-    }
+  .chainSection {
+    padding: 40px 20px;
+    flex-direction: column;
+  }
 
-    .cardss {
-        max-width: 100%;
-    }
+  .cardss {
+    max-width: 100%;
+  }
 
-    .chain-icons {
-        margin: 40px auto 0;
-    }
+  .chain-icons {
+    margin: 40px auto 0;
+  }
 }
 
 @media (max-width: 767px) {
-    .cardssHeader {
-        font-size: 2rem;
-    }
+  .aboutSubHeader {
+    width: 100%;
+  }
+  .cardssHeader {
+    font-size: 2rem;
+  }
 
-    .cardssPara {
-        font-size: 0.9rem;
-    }
+  .cardssPara {
+    font-size: 0.9rem;
+  }
 
-    .chain-icons {
-        max-width: 250px;
-        height: 250px;
-    }
+  .chain-icons {
+    max-width: 250px;
+    height: 250px;
+  }
 }
 
 @media (max-width: 480px) {
-    .chainSection {
-        padding: 30px 15px;
-    }
+  .chainSection {
+    padding: 30px 15px;
+  }
 
-    .cardssHeader {
-        font-size: 1.8rem;
-    }
+  .cardssHeader {
+    font-size: 1.8rem;
+  }
 
-    .cardssPara {
-        font-size: 0.8rem;
-    }
+  .cardssPara {
+    font-size: 0.8rem;
+  }
 
-    .chain-icons {
-        max-width: 200px;
-        height: 200px;
-    }
+  .chain-icons {
+    max-width: 200px;
+    height: 200px;
+  }
 
-    .chain-icon,
-    .chain-icon img {
-        width: 30px;
-        height: 30px;
-    }
+  .chain-icon,
+  .chain-icon img {
+    width: 30px;
+    height: 30px;
+  }
 }
 /* form */
 
 @media (max-width: 768px) {
-    .formContainer {
-        flex-direction: column;
-        padding: 20px;
-    }
+  .formContainer {
+    flex-direction: column;
+    padding: 20px;
+  }
 
-    .left-content {
-        text-align: center;
-        margin-bottom: 20px;
-    }
+  .left-content {
+    text-align: center;
+    margin-bottom: 20px;
+  }
 
-    .trade-form {
-        max-width: 100%;
-    }
+  .trade-form {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 480px) {
-    .formContainer {
-        padding: 15px;
-    }
+  .formContainer {
+    padding: 15px;
+  }
 
-    .start-trading {
-        width: 100%;
-        padding: 10px;
-    }
+  .start-trading {
+    width: 100%;
+    padding: 10px;
+  }
 
-    /* .form-row {
+  /* .form-row {
         flex-direction: column;
         align-items: flex-start;
     } */
 
-    .form-value {
-        margin-top: 5px;
-    }
+  .form-value {
+    margin-top: 5px;
+  }
 }
 
 /* reward */
 
 @media (max-width: 768px) {
-    .rewardCard {
-        padding: 30px;
-    }
-    
-    .rewardTitle {
-        margin-bottom: 15px;
-    }
-    
-    .description {
-        margin-bottom: 25px;
-    }
-    
-    .button {
-        padding: 10px 20px;
-    }
+  .rewardCard {
+    padding: 30px;
+  }
+
+  .rewardTitle {
+    margin-bottom: 15px;
+  }
+
+  .description {
+    margin-bottom: 25px;
+  }
+
+  .button {
+    padding: 10px 20px;
+  }
 }
 
 @media (max-width: 480px) {
-    .rewardCard {
-        padding: 20px;
-    }
-    
-    .button {
-        display: block;
-        width: 100%;
-    }
+  .rewardCard {
+    padding: 20px;
+  }
+
+  .button {
+    display: block;
+    width: 100%;
+  }
 }
 
 /* footer */
 @media (max-width: 768px) {
-    .footer {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: 20px;
-    }
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
 
-    .nav {
-        margin: 15px 0;
-        justify-content: center;
-    }
+  .nav {
+    margin: 15px 0;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 480px) {
-    .logo {
-        font-size: 20px;
-    }
+  .logo {
+    font-size: 20px;
+  }
 
-    .nav {
-        /* flex-direction: column; */
-        align-items: center;
-    }
+  .nav {
+    /* flex-direction: column; */
+    align-items: center;
+  }
 
-    .nav a {
-        padding: 5px 0;
-    }
+  .nav a {
+    padding: 5px 0;
+  }
 
-    .launch-btn {
-        width: 100%;
-        max-width: 200px;
-    }
+  .launch-btn {
+    width: 100%;
+    max-width: 200px;
+  }
 }
-
 
 /* Responsive adjustments */
 @media (max-width: 1200px) {
-    .tradingHeader { font-size: 4.5rem; }
-    .tradingSubHeader { font-size: 3.5rem; }
+  .tradingHeader {
+    font-size: 4.5rem;
+  }
+  .tradingSubHeader {
+    font-size: 3.5rem;
+  }
 }
 
 @media (max-width: 992px) {
-    .tradingHeader { font-size: 3.5rem; }
-    .tradingSubHeader { font-size: 2.5rem; }
-    .tradingPara { font-size: 0.9rem; }
+  .tradingHeader {
+    font-size: 3.5rem;
+  }
+  .tradingSubHeader {
+    font-size: 2.5rem;
+  }
+  .tradingPara {
+    font-size: 0.9rem;
+  }
 }
 
 @media (max-width: 768px) {
-    .tradingHeader { font-size: 2.5rem; }
-    .tradingSubHeader { font-size: 2rem; }
-    .tradingPara { font-size: 0.8rem; }
-    .btn { padding: 6px 25px; font-size: 12px; }
+  .tradingHeader {
+    font-size: 2.5rem;
+  }
+  .tradingSubHeader {
+    font-size: 2rem;
+  }
+  .tradingPara {
+    font-size: 0.8rem;
+  }
+  .btn {
+    padding: 6px 25px;
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 576px) {
-    .tradingHeader { font-size: 2rem; }
-    .tradingSubHeader { font-size: 1.5rem; }
-    .tradingPara { font-size: 0.7rem; }
-    .buttons { flex-direction: column; align-items: center; }
-    .btn { width: 80%; max-width: 200px; }
+  .tradingHeader {
+    font-size: 2rem;
+  }
+  .tradingSubHeader {
+    font-size: 1.5rem;
+  }
+  .tradingPara {
+    font-size: 0.7rem;
+  }
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn {
+    width: 80%;
+    max-width: 200px;
+  }
 }
 
 @media (max-width: 480px) {
-    .floating-icon { display: none; }
+  .floating-icon {
+    display: none;
+  }
 }
-@media(max-width:768px){
-     .commitment{
-        flex-direction: column;
-    }
+@media (max-width: 768px) {
+  .commitment {
+    flex-direction: column;
+  }
 }
 @media (min-width: 768px) {
-   
-    .commitment-text, .commitment-features {
-        flex: 1 1 calc(50% - 20px);
-    }
+  .commitment-text,
+  .commitment-features {
+    flex: 1 1 calc(50% - 20px);
+  }
 
-    .section-header {
-        font-size: 3rem;
-    }
+  .section-header {
+    font-size: 3rem;
+  }
 
-    .commitment-text p {
-        font-size: 1.1rem;
-    }
+  .commitment-text p {
+    font-size: 1.1rem;
+  }
 
-    .feature-item h3 {
-        font-size: 1.4rem;
-    }
+  .feature-item h3 {
+    font-size: 1.4rem;
+  }
 
-    .cta-section h2 {
-        font-size: 2.2rem;
-    }
+  .cta-section h2 {
+    font-size: 2.2rem;
+  }
 
-    .cta-button {
-        padding: 15px 30px;
-        font-size: 1.1rem;
-    }
+  .cta-button {
+    padding: 15px 30px;
+    font-size: 1.1rem;
+  }
 }
 
 @media (min-width: 1024px) {
-    .commitment-content {
-        flex-wrap: nowrap;
-    }
+  .commitment-content {
+    flex-wrap: nowrap;
+  }
 
-    .commitment-text, .commitment-features {
-        flex: 1 1 0;
-    }
+  .commitment-text,
+  .commitment-features {
+    flex: 1 1 0;
+  }
 }
 
 @media (max-width: 480px) {
-    .section-header {
-        font-size: 2rem;
-    }
+  .section-header {
+    font-size: 2rem;
+  }
 
-    .commitment-section {
-        padding: 40px 10px;
-    }
+  .commitment-section {
+    padding: 40px 10px;
+  }
 
-    .commitment-text, .commitment-features {
-        padding: 20px;
-    }
+  .commitment-text,
+  .commitment-features {
+    padding: 20px;
+  }
 
-    .feature-item {
-        padding-left: 15px;
-    }
+  .feature-item {
+    padding-left: 15px;
+  }
 
-    .cta-section {
-        padding: 20px;
-    }
+  .cta-section {
+    padding: 20px;
+  }
 
-    .social-links a {
-        display: block;
-        margin: 15px 0;
-    }
+  .social-links a {
+    display: block;
+    margin: 15px 0;
+  }
 }
 
-@media(max-width:767px){
-    .mainlogo{
-        width: 100%;
-    }
-    .border_cta{
-        width:100%;
-    }
+@media (max-width: 767px) {
+  .mainlogo {
+    width: 100%;
+  }
+  .border_cta {
+    width: 100%;
+  }
 }
