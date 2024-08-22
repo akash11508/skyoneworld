@@ -11,7 +11,7 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />                     
 
     <link
       rel="stylesheet"
@@ -145,12 +145,17 @@
 
     <!-- About -->
 
-    <section class="about-section" id="about">
+    <section class="about-section" id="about"  data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-easing="linear"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            data-aos-once="true">
       <div class="container">
         <div class="aboutus">
           <div class="content">
-            <h1 class="aboutHeader">About Us</h1>
-            <h2 class="aboutSubHeaders">About SkyOneWorld</h2>
+            <h1 class="aboutHeader highlight">About Us</h1>
+            <h2 class="aboutSubHeaders">About <span class="highlight">SkyOneWorld</span></h2>
             <ul>
               <li>
                 SkyOneWorld is an investment company focused on maximizing
@@ -166,7 +171,7 @@
             </ul>
           </div>
           <div class="image">
-            <img src="./images/image.png" alt="Trader illustration" />
+            <img src="./images/about.png" alt="Trader illustration" />
           </div>
         </div>
       </div>
@@ -174,9 +179,11 @@
 
     <!-- vision and mission -->
 
-    <section class="vision-mission">
-      <div class="content">
-        <h1 class="aboutHeader">Vision & Mission</h1>
+    <section class="mission">
+      <div class="container">
+        <div class="vision-mission">
+   <div class="content">
+        <h1 class="aboutHeader highlight">Vision & Mission</h1>
 
         <div class="vision">
           <h2 class="aboutSubHeader">Vision</h2>
@@ -201,14 +208,32 @@
       </div>
 
       <div class="image-container">
-        <img src="./images/image.png" alt="Trader illustration" />
+        <img src="./images/vision.png" alt="Trader illustration" />
       </div>
+        </div>
+      
+      </div>
+     
     </section>
 
     <!-- why-choose -->
 
-    <div class="sky-one-world">
-      <p class="main-title">Why Choose SkyOneWorld ?</p>
+   
+
+    <!-- replicateSection -->
+    <section
+      class="why-choose-section"
+      data-aos="fade-right"
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom"
+      data-aos-easing="linear"
+      data-aos-delay="900"
+      data-aos-offset="0"
+      data-aos-once="true"
+    >
+      <div class="container">
+         <div class="sky-one-world">
+      <p class="main-title highlight">Why Choose SkyOneWorld ?</p>
       <div class="features-containers">
         <div class="feature-card">
           <div class="icon-wrapper">
@@ -252,20 +277,7 @@
         </div>
       </div>
     </div>
-
-    <!-- replicateSection -->
-    <section
-      class="why-choose-section"
-      data-aos="fade-right"
-      data-aos="fade-up"
-      data-aos-anchor-placement="top-bottom"
-      data-aos-easing="linear"
-      data-aos-delay="900"
-      data-aos-offset="0"
-      data-aos-once="true"
-    >
-      <div class="container">
-        <h1 class="section-title">
+        <!-- <h1 class="section-title">
           Why Choose
           <span class="highlight">SkyOneWorld</span>
           ?
@@ -334,7 +346,7 @@
               a variety of assets within the crypto and forex markets.
             </p>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
     <!-- volumesection -->

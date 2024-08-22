@@ -1,77 +1,79 @@
-:root{
+:root {
+  /* --navBackground:linear-gradient(90deg, #3D1E3E, #24394D); */
+  --navBackground: #060609;
 
-    /* --navBackground:linear-gradient(90deg, #3D1E3E, #24394D); */
-    --navBackground:#000000c4;
-    --textPrimaryColor:#fff;
-    --secoundaryTextColor:#000000;
-    --iconColor:#FF9966;
-    --textColor:#17171c;
-    --paraColor:rgba(255, 255, 255, 0.8);
-    --launchBtn: rgb(27 71 84) border-box;
-    --detailItem:2px 3px 1px #150f22, 1px 3px 6px #332552;
-    --tradingSpan: linear-gradient(to right, #FF9966, #FF6699, #6699FF, #66CCFF);
-    --commonSection:linear-gradient(
-          to right,
-          rgb(193 41 13 / 40%),
-          rgb(165 57 130 / 40%),
-          rgb(94 110 193 / 40%),
-          rgb(38 111 161 / 40%),
-          rgb(27 91 124 / 40%)
-        );
-        --featureShadow:5px 2px 5px #636669,
-             1px 0px 6px #858a8f;
-        --textShadow:2px 2px 4px rgba(0,0,0,0.3);
-        --gradientColor:linear-gradient(to right, #ff6b6b, #4ecdc4, #45b7d1);
-    --navLinkHover:#1a1a2e;
-    --ethereum:#151C39;
-    --polygon:#21123A;
-    --bnb:#2E2510;
-    --avalanche:#310A0B;
-    --arbitrum:#081B27;
-    --optimism:#081B27;
-    /* --bodyColor:linear-gradient(90deg, #3D1E3E 0%, #1B1518 25%, #12161D 50%, #101315 75%, #24394D 100%); */
-    --bodyColor:#000000c4;
-    --buttonPrimary:#0F3650;
-    --secoundaryButton:linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)) padding-box, linear-gradient(to right, rgba(151, 71, 255, 1), rgba(252, 43, 90, 1)) border-box;
-     /* --textPrimaryColor: #ffffff; */
-    --backgroundColor: #000000c4;
-    --accentColor: #00ff9d;
-    --gradientStart: #2b0e3a;
-    --gradientEnd: #1a2a3a;
-    --featureIcon:#4ecdc4;
-    --detaileIcon:#08070d;
-    --formContainer:#161b22;
-}
-
-@font-face {
-    font-family: 'Mona sans';
-    src: url('./monasans/Mona-Sans-LightItalic.ttf') format('truetype');
-    /* Add additional formats if available */
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Helvetica Neue';
-    src: url('./helvetica-neue/HelveticaNeueThinItalic.otf') format('opentype');
-    /* Add additional formats if available */
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Helvetica';
-    src: url('./helvetica-255/helvetica-light-587ebe5a59211.ttf') format('truetype'),;
-    /* Add additional formats if available */
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Arial';
-    src: url('./arial/ARIAL.TTF') format('truetype'),;
-    /* Add additional formats if available */
-    font-weight: normal;
-    font-style: normal;
+  --textPrimaryColor: #fff;
+  --secoundaryTextColor: #000000;
+  --iconColor: #ff9966;
+  --textColor: #17171c;
+  --paraColor: rgba(255, 255, 255, 0.8);
+  --launchBtn: rgb(27 71 84) border-box;
+  --detailItem: 2px 3px 1px #150f22, 1px 3px 6px #332552;
+  --tradingSpan: linear-gradient(to right, #ff9966, #ff6699, #6699ff, #66ccff);
+  --commonSection: linear-gradient(
+    to right,
+    rgb(193 41 13 / 40%),
+    rgb(165 57 130 / 40%),
+    rgb(94 110 193 / 40%),
+    rgb(38 111 161 / 40%),
+    rgb(27 91 124 / 40%)
+  );
+  --featureShadow: 5px 2px 5px #636669, 1px 0px 6px #858a8f;
+  --textShadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  --gradientColor: linear-gradient(to right, #ff6b6b, #4ecdc4, #45b7d1);
+  --navLinkHover: #1a1a2e;
+  --ethereum: #151c39;
+  --polygon: #21123a;
+  --bnb: #2e2510;
+  --avalanche: #310a0b;
+  --arbitrum: #081b27;
+  --optimism: #081b27;
+  /* --bodyColor:linear-gradient(90deg, #3D1E3E 0%, #1B1518 25%, #12161D 50%, #101315 75%, #24394D 100%); */
+  --bodyColor: #000000c4;
+  --buttonPrimary: #0f3650;
+  --secoundaryButton: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1))
+      padding-box,
+    linear-gradient(to right, rgba(151, 71, 255, 1), rgba(252, 43, 90, 1))
+      border-box;
+  /* --textPrimaryColor: #ffffff; */
+  --backgroundColor: #000000c4;
+  --accentColor: #00ff9d;
+  --gradientStart: #2b0e3a;
+  --gradientEnd: #1a2a3a;
+  --featureIcon: #4ecdc4;
+  --detaileIcon: #08070d;
+  --formContainer: #161b22;
 }
 
+@font-face {
+  font-family: "Mona sans";
+  src: url("./monasans/Mona-Sans-LightItalic.ttf") format("truetype");
+  /* Add additional formats if available */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("./helvetica-neue/HelveticaNeueThinItalic.otf") format("opentype");
+  /* Add additional formats if available */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Helvetica";
+  src: url("./helvetica-255/helvetica-light-587ebe5a59211.ttf")
+    format("truetype");
+  /* Add additional formats if available */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Arial";
+  src: url("./arial/ARIAL.TTF") format("truetype");
+  /* Add additional formats if available */
+  font-weight: normal;
+  font-style: normal;
+}
 
 /* .cryptoServices{
         font-size: 1.5rem!important;
@@ -90,22 +92,24 @@
     word-spacing: 2px!important;
 } */
 
-
-   #preloader {
+#preloader {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to right, rgb(73,41,39), rgb(55,45,63), rgb(32,54,78));
-
+  background: linear-gradient(
+    to right,
+    rgb(73, 41, 39),
+    rgb(55, 45, 63),
+    rgb(32, 54, 78)
+  );
 
   /* background: linear-gradient(to right, rgb(219 118 99 / 40%), rgb(165 57 130 / 40%), rgb(94 110 193 / 40%), rgb(38 111 161 / 40%), rgb(27 91 124 / 40%)); */
   z-index: 9999;
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 /* .loader {
   width: 100%;
@@ -132,7 +136,7 @@
   height: 30px;
   width: 30px;
   border-radius: 50%;
-  background: #66A5FF;
+  background: #66a5ff;
   animation: loading-bounce 0.5s ease-in-out infinite alternate;
 }
 
@@ -168,16 +172,12 @@
 
 @keyframes loading-step {
   0% {
-    box-shadow: 0 10px 0 rgba(0, 0, 0, 0),
-            0 10px 0 #f2f2f2,
-            -35px 50px 0 #f2f2f2,
-            -70px 90px 0 #f2f2f2;
+    box-shadow: 0 10px 0 rgba(0, 0, 0, 0), 0 10px 0 #f2f2f2,
+      -35px 50px 0 #f2f2f2, -70px 90px 0 #f2f2f2;
   }
 
   100% {
-    box-shadow: 0 10px 0 #f2f2f2,
-            -35px 50px 0 #f2f2f2,
-            -70px 90px 0 #f2f2f2,
-            -70px 90px 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 10px 0 #f2f2f2, -35px 50px 0 #f2f2f2, -70px 90px 0 #f2f2f2,
+      -70px 90px 0 rgba(0, 0, 0, 0);
   }
 }
