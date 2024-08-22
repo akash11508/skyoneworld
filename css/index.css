@@ -11,7 +11,6 @@ body {
   /* font-family:nike combat stencil!important; */
   background: var(--bodyColor);
   background: var(--navBackground) !important;
-  
 }
 a {
   text-decoration: none;
@@ -95,7 +94,7 @@ a {
   letter-spacing: 0.05em;
   border-radius: 30px;
   border-width: 1px !important;
-  background: var(--launchBtn);
+  /* background: var(--launchBtn); */
   border: 1px solid transparent !important;
   transition: 0.3s ease;
 }
@@ -111,12 +110,14 @@ a {
     rgb(38 111 161 / 40%)
   );
   text-decoration: none;
+  transform: 0.3s ease;
 }
 
 .lunch-app-btn span {
   transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
 }
 .mainlogo {
+  width: 35%;
 }
 
 /* .lunch-app-btn:hover span {
@@ -339,8 +340,10 @@ a {
 }
 
 .aboutHeader {
-  font-size: 6rem;
-  margin-bottom: 10px;
+  font-size: 4.5rem;
+  font-weight: bold;
+  /* color: #ffa500; */
+  margin-bottom: 40px;
   /* color: #ffa500; */
 }
 .aboutSubHeaders {
@@ -351,7 +354,7 @@ a {
 .aboutSubHeader {
   font-size: 2.4rem;
   margin-bottom: 20px;
-  background: #8a2be2;
+  background-image: var(--tradingSpan);
   width: 15vw;
   text-align: center;
   border-radius: 15px;
@@ -408,14 +411,14 @@ a {
 }
 
 /* vision and mission  */
-.mission{
+.mission {
   background: var(--navBackground);
 }
 .vision-mission {
   /* background-color: #1a1a2e; */
   background: var(--navBackground);
   color: white;
-  padding: 50px;
+  /* padding: 50px; */
   position: relative;
   overflow: hidden;
   display: flex;
@@ -497,7 +500,7 @@ a {
 }
 
 .feature-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-10px)!important;
 }
 
 .icon-wrapper {
@@ -519,14 +522,14 @@ a {
 }
 
 .feature-title {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: 500;
   margin-bottom: 10px;
   color: #fff;
 }
 
 .feature-description {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   line-height: 1;
   color: #fff;
   font-weight: 400;
@@ -562,11 +565,11 @@ a {
   font-family: "josephin slab", sans-serif;
 }
 
-.container {
-  /* max-width: 1200px; */
+/* .container {
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
-}
+} */
 
 .section-title {
   font-size: 3rem;
@@ -644,6 +647,74 @@ a {
     font-size: 2.5rem;
   }
 }
+
+/* services  */
+
+.services-container {
+  color: white;
+  /* padding: 2rem; */
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+.services-title {
+  font-size: 4.5rem;
+  font-weight: bold;
+  /* color: #ffa500; */
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.services-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.services-image {
+  flex: 1;
+}
+
+.services-placeholder-image {
+  width: 100%;
+}
+.services-placeholder-image img {
+  width: 100%;
+}
+.services-list {
+  flex: 1;
+}
+
+.service-category {
+  margin-bottom: 1.5rem;
+}
+
+.service-category-title {
+  background: linear-gradient(to right, #00a0e4, #a64d79);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.service-items {
+  list-style-type: none;
+  padding-left: 1rem;
+}
+
+.service-item {
+  margin-bottom: 0.5rem;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.service-item::before {
+  content: "•";
+  color: white;
+  position: absolute;
+  left: 0;
+}
+
 /* featuressection */
 
 .token-details {
@@ -745,12 +816,6 @@ a {
 .commitment-section {
   background-color: var(--navBackground);
   padding: 60px 20px;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
 }
 
 .section-header {
@@ -1054,9 +1119,8 @@ a {
 }
 
 /* rewards */
-#rewards{
-  
-  background:var(--navBackground);
+#rewards {
+  background: var(--navBackground);
 }
 .rewardCard {
   background: rgba(28, 28, 46, 0.8);
