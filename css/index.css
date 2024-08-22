@@ -500,7 +500,7 @@ a {
 }
 
 .feature-card:hover {
-  transform: translateY(-10px)!important;
+  transform: translateY(-10px) !important;
 }
 
 .icon-wrapper {
@@ -1123,7 +1123,7 @@ a {
   background: var(--navBackground);
 }
 .rewardCard {
-  background: rgba(28, 28, 46, 0.8);
+  background: rgb(26 26 38 / 80%);
   border-radius: 20px;
   padding: clamp(20px, 5vw, 40px);
   text-align: center;
@@ -1136,6 +1136,12 @@ a {
   font-weight: bold;
   margin-bottom: 20px;
   line-height: 1.2;
+}
+.rewardspan {
+  background-image: var(--tradingSpan);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .description {
