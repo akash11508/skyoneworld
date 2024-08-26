@@ -70,6 +70,17 @@
   .logo img {
     width: 100%;
   }
+  .aboutHeader {
+    font-size: 3.5rem;
+  }
+}
+@media screen and (max-width: 300px) {
+  .aboutHeader {
+    font-size: 2.5rem;
+  }
+  .aboutSubHeaders {
+    font-size: 1.7rem;
+  }
 }
 
 /* volume */
@@ -165,6 +176,11 @@
     margin: 40px auto 0;
   }
 }
+@media (max-width: 992px) {
+  .term-item {
+    font-size: 19px;
+  }
+}
 
 @media (max-width: 767px) {
   .aboutSubHeader {
@@ -206,6 +222,11 @@
   .chain-icon img {
     width: 30px;
     height: 30px;
+  }
+}
+@media (max-width: 371px) {
+  .aboutHeader {
+    font-size: 2.5rem;
   }
 }
 /* form */
@@ -355,7 +376,7 @@
     font-size: 2rem;
   }
   .tradingSubHeader {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   }
   .tradingPara {
     font-size: 0.7rem;
